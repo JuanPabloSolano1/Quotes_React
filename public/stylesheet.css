@@ -1,0 +1,31 @@
+.container {
+  width: 550px !important;
+  border: solid;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 40px;
+  padding-top: 30px;
+  margin-top: 40px;
+  padding-right: 30px;
+  padding-left: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  font-family: "Montserrat", sans-serif;
+  background-color: #ededed;
+  color: white;
+  height: 400px;
+}
+
+#paragraph {
+  font-style: italic;
+  margin-top: 60px;
+}
+
+.title {
+  margin-bottom: 30px;
+  color: #0f4c81;
+}
+
+#quote {
+  color: white;
+  padding-top: 30px;
+}
