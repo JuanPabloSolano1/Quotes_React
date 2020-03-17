@@ -7,8 +7,8 @@ class Quote extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      quote: "JP You are a rockstar",
-      author: "JP",
+      quote: "Keep your face always toward the sunshine - and shadows will fall behind you.",
+      author: "Walt Whitman",
       count: 0,
       color: "Black"
     };
