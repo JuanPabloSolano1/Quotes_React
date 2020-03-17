@@ -21,7 +21,7 @@
       rel="stylesheet"
     />
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-    -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.2.4/gsap.min.js"></script>
     <title>Quotes App</title>
   </head>
 
@@ -40,4 +40,12 @@
     >
     </lottie-player>
   </body>
+  <script>
+   gsap.from(".container", {duration: 6, x: 300, opacity: 0, scale: 0.5});
+   let button = document.getElementById("button")
+   button.addEventListener("click", event =>{
+     gsap.to(".container", {duration: 3, rotationX: 360});
+     console.log("hello")
+   })
+  </script>
 </html>
